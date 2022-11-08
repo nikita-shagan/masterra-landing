@@ -469,6 +469,14 @@
     text-decoration: none;
   }
 
+  .nav__link_color_gray {
+    color: #484848;
+  }
+
+  .nav__link_color_blue {
+    color: #0081C3;
+  }
+
   .content-wrapper {
     display: grid;
     grid-template-columns: 1fr;
@@ -614,6 +622,15 @@
     font-size: 12px;
     line-height: 14px;
     color: #FFFFFF;
+    cursor: pointer;
+  }
+
+  .tarif__archive:hover {
+    background-color: #005e8d;
+  }
+
+  .tarif__archive:active {
+    background-color: #0081C3;
   }
 
   .footer {
